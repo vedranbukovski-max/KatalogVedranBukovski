@@ -62,6 +62,10 @@ const mains = knjige
     //.filter(knjiga => knjiga.category === "filozofski")
     //.sort((a, b) => a.name.localeCompare(b.name));
     //.sort((a, b) => b.name.localeCompare(a.name));
+    //.sort((a, b) => a.id - b.id);
+    //.sort((a, b) => b.id - a.id);
+    //.sort((a, b) => a.price - b.price);
+    //.sort((a, b) => b.price - a.price);
 
 //render(knjige);
 render(mains);
